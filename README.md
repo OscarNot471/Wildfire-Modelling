@@ -4,11 +4,6 @@
   <img src="results/wildfire_3d_animation.gif" width="750">
 </p>
 
-<p align="center">
-  <img src="results/wildfire_3d_animation.gif" width="750">
-</p>
-
-
 
 ## PROJECT BACKGROUND
 
