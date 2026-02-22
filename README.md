@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="results/wildfire_3d_animation.gif" width="750">
+</p>
+
 PROJECT BACKGROUND
 
 This project was developed as part of the course Introduction to Modeling in Physics during my undergraduate degree. At the end of the semester, we were asked to work in groups of three to model a physical system of our choice and present it to the class.
