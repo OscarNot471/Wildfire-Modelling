@@ -1,12 +1,17 @@
+WILDFIRE MODELLING
+
 <p align="center">
   <img src="results/wildfire_3d_animation.gif" width="750">
 </p>
+
+
 
 PROJECT BACKGROUND
 
 This project was developed as part of the course Introduction to Modeling in Physics during my undergraduate degree. At the end of the semester, we were asked to work in groups of three to model a physical system of our choice and present it to the class.
 
 Together with two colleagues, we chose to model wildfire propagation. The main motivation was that wildfire spread can be described, at a basic level, by equations similar to diffusion equations, which we had already studied and implemented in previous practical sessions. This made it a natural and interesting extension of the material covered in the course.
+
 
 MODELLING APPROACH
 
@@ -15,6 +20,7 @@ Our initial intention was to implement the well-known Rothermel model, which is 
 Instead, we developed a simplified physics-based model. The goal was not to achieve high physical realism, but to construct a clear and numerically consistent framework capable of qualitatively reproducing wildfire propagation.
 
 Rather than using many experimentally calibrated parameters, we introduced a smaller set of generalized parameters and normalized fields (for example, moisture ranging from 0 to 1). This approach does not attempt to reproduce the detailed physical properties of real forests or combustion processes. However, it allows us to study how different environmental factors influence fire spread in a controlled and interpretable way.
+
 
 NUMERICAL METHOD
 
@@ -40,6 +46,7 @@ This step-by-step development allowed us to clearly understand the impact of eac
 
 All mathematical formulations are provided in the /docs folder, and the code is commented for clarity.
 
+
 PROJECT CONTRIBUTIONS
 
 This repository contains:
@@ -48,6 +55,7 @@ This repository contains:
 * Simulation results and animations
 
 Another member of the group implemented an alternative approach based on a Metropolis algorithm. That method is not included in this repository; here I present only the deterministic PDE-based model developed collaboratively by David and myself.
+
 
 RESULTS
 
